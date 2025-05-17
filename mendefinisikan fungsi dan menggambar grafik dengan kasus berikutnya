@@ -1,0 +1,9 @@
+#menggunakan library pendukung dan menggambar fungsi grafik
+#library numpy untuk menentukan list domain,matplotlib untuk membuat grafik 
+#dan setiap grafik memiliki legend dan title dengan warna sesuai masing-masing
+#gunakan library:numpy linspace atau arrange, matplotlib figure, axvline, title, xlabel, ylabel, grid, legend, show
+a) f(x)=2x|-100<x<100
+b) f(x)=x²+3-10|-20<x<20
+c) f(x)=x³-10|-10<x<10
+d) f(x)=sin(x)|-2π<x<2π
+e) f(x)=cos(x)|-2π<x<2π

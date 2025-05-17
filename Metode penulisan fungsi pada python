@@ -1,0 +1,51 @@
+#contoh dengan menggunakan fungsi f(x)=3x-7|-5<x<5,
+1.menggunakan konversial
+kodingan:
+for x in range(-5 ,5):
+  f_x= 3 * x -7
+  print(f"f(x):{x} = {f_x}")
+
+output: f(x):-4 = -19
+        f(x):-3 = -16
+        f(x):-2 = -13
+        f(x):-1 = -10
+        f(x):0 = -7
+        f(x):1 = -4
+        f(x):2 = -1
+        f(x):3 = 2
+        f(x):4 = 5
+
+2.mengunakan fungsi def
+kodingan:
+def f(x):
+    return 3 * x - 7
+for x in range(-5, 5):
+  print(f"f(x):{x} = {f(x)}")
+
+output: f(x):-4 = -19
+        f(x):-3 = -16
+        f(x):-2 = -13
+        f(x):-1 = -10
+        f(x):0 = -7
+        f(x):1 = -4
+        f(x):2 = -1
+        f(x):3 = 2
+        f(x):4 = 5
+
+3.menggunakan anggota himpunan domain dengan menggunakan list 
+kodingan:
+def f(x):
+  return 3 * x - 7
+domain=[i for i in range(-4,5)]
+for x in domain:
+  print(f"f(x):{x} = {f(x)}")
+
+outout: f(x):-4 = -19
+        f(x):-3 = -16
+        f(x):-2 = -13
+        f(x):-1 = -10
+        f(x):0 = -7
+        f(x):1 = -4
+        f(x):2 = -1
+        f(x):3 = 2
+        f(x):4 = 5
